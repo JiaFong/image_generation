@@ -1,6 +1,7 @@
 from os.path import join
 from PIL import Image
 import numpy as np
+import torch
 from torch.utils.data import Dataset
 from paths import *
 
@@ -33,10 +34,10 @@ class PointColorDataset(Dataset):
 		return self.data.shape[0]
 		
 	def __getitem__(self, index):
-		return torch.tensor(self.data[index]).to(self.device)
+		return torch.tensor(self.data[index]).float().to(self.device)
 
 	def getAllSamples(self, return_in="numpy"):
 		if return_in == "numpy":
 			return self.data
 		else:
-			return torch.tensor(self.data).to(self.device)
+			return torch.tensor(self.data).float().to(self.device)

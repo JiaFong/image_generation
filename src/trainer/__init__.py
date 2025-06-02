@@ -1,1 +1,1 @@
-SUPPORTED_TRAINER = ["GMMTrainer", "VAETrainer"]
+SUPPORTED_TRAINER = ["VAETrainer", "GANTrainer"]

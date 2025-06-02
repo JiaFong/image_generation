@@ -1,0 +1,13 @@
+dataset:
+    device: cuda
+trainer:
+    name: GANTrainer
+    device: cuda
+    generator:
+        latent_dim: 256
+    discriminator:
+        in_dim: 5
+    epoch: 1000
+    batch_size: 128
+    lr: 0.00005
+    weight_decay: 0.001
