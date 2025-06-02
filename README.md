@@ -50,6 +50,6 @@ We evaluate how suprise the original and re-generated points may be sampled from
 
 The MMD and KL score will be shown in the command line; and you can find the re-generated image and pairplot results in the saved folder. Below are the results from the GMM method.
 
-![re-generated image](https://github.com/user-attachments/assets/75601607-d35e-449e-b991-000165d48a8f)
+![re-generated image](https://github.com/user-attachments/assets/799f9fe3-bba4-4ae6-a8bd-03a4c3896906)
 
-![feature visualization](https://github.com/user-attachments/assets/75601607-d35e-449e-b991-000165d48a8f)
+![feature visualization](https://github.com/user-attachments/assets/1323e91e-1ff0-42e3-8b6f-cb289d2e6ebc)
