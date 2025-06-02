@@ -41,7 +41,7 @@ The generated points will be used for the image generation and performance evalu
 ## Results
 If the program is successfully executed, you should see the outputs similar like this:
 
-![execution results](https://drive.google.com/file/d/1dib4_e2Vp2o1Pz-YpJB9Z0kkDoXGH-Ab/view?usp=sharing)
+![execution results](https://github.com/user-attachments/assets/75601607-d35e-449e-b991-000165d48a8f)
 
 We evaluate how suprise the original and re-generated points may be sampled from a similar distribution by the following metrics:
 - Feature visualization (seaborn's pairplot)
@@ -50,6 +50,6 @@ We evaluate how suprise the original and re-generated points may be sampled from
 
 The MMD and KL score will be shown in the command line; and you can find the re-generated image and pairplot results in the saved folder. Below are the results from the GMM method.
 
-![re-generated image](https://drive.google.com/file/d/1XguNiJTRoBTpWQsiITVBFj8W10HaSjqw/view?usp=sharing)
+![re-generated image](https://github.com/user-attachments/assets/75601607-d35e-449e-b991-000165d48a8f)
 
-![feature visualization](https://drive.google.com/file/d/1PH-e8Rrjq1l3vOdEHc95oHBjFV8y63Mc/view?usp=sharing)
+![feature visualization](https://github.com/user-attachments/assets/75601607-d35e-449e-b991-000165d48a8f)
