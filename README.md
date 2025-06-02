@@ -10,6 +10,11 @@ This repository aims to address a density modeling and sample generation problem
 
 The objective of the task is to learn a distribution over colored points such that samples drawn from the model exhibit the same spatial and color characteristics as those in the original dataset.
 
+- **Required Data:** We expect the following data is available for training the generative models:
+    - xs.npy: recording all the points' x location (height values).
+    - ys.npy: recording all the points' y location (width values).
+    - sparse_pi_colored.jpg: the target image we try to regenerate; now the file name is fixed in the dataset.py, will make it adjustable in future updates.
+
 ## How to Run the Project
 
 1. Download the project via git clone.
