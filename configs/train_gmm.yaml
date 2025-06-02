@@ -1,0 +1,6 @@
+dataset:
+    device: cpu
+trainer:
+    name: GMMTrainer
+    min_k: 1
+    max_k: 50

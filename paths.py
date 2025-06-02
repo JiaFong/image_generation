@@ -1,0 +1,5 @@
+ROOT_PATH = "./"
+CONFIG_PATH = ROOT_PATH + "configs/"
+DATASET_PATH = ROOT_PATH + "data/"
+TRAINER_PATH = ROOT_PATH + "src/trainer/"
+SAVED_PATH = ROOT_PATH + "saved/"
